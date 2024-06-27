@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /* background: linear-gradient(to bottom, #6ab7f5, #fff); */
+     background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1597942d-b11c-4d38-b5d0-abc9c8f55c67/dgv2ixy-76614be2-2be9-4bcd-828f-10e0c97c7755.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE1OTc5NDJkLWIxMWMtNGQzOC1iNWQwLWFiYzljOGY1NWM2N1wvZGd2Mml4eS03NjYxNGJlMi0yYmU5LTRiY2QtODI4Zi0xMGUwYzk3Yzc3NTUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.P1huu3hJipLskTb77QskjUvcWqqTpWzI6tD1x9dbXPQ") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    background: url("../images/pokedex.png") no-repeat center;
+    background-size: 100% 100%;
+    width: 23rem;
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+img {
+    width: 8rem;
+    position: absolute;
+    top: 11rem;
+    left: 6.5rem;
+    height: 8rem;
+    image-resolution: 1rem;
+}
+
+.pokemon_data {
+    font-weight: 600;
+    color: #aaa;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 55%;
+    left: 24%;
+}
+
+.pokemon_name {
+    color: #3a444d;
+    font-size: 1.5rem;
+    font-weight: both;
+    text-transform: capitalize;
+}
+
+.form {
+    width: 66%;
+    position: absolute;
+    bottom: 25%;
+    left: 17%;
+}
+
+input {
+    width: 100%;
+    border: 2px solid #333;
+    padding: 2%;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: 1.4rem;
+    box-shadow: -3px 4px #888, -5px 7px #333;
+    background-color: #eee;
+}
+
+.buttons {
+    width: 55%;
+    display: flex;
+    gap:  1.25rem;
+    position: absolute;
+    bottom: 10%;
+    left: 17%;
+}
+
+.button {
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #444;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: -2px 3px #222, -4px 6px #000;
+}
+
+.button:active {
+    font-size: .9rem;
+    box-shadow: inset -4px #222;
+}
